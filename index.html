@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blacks Headshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+    <header class="max-width bg" id="home">   
+        <div class="container">
+            <div class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Novidade</a></li>
+                        <li><a href="#">Destaque</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul id="myLinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Novidade</a></li>
+                        <li><a href="#">Destaque</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="call">
+                <div class="left">
+                    <h1 class="color-azul text-gd">Novas Coleções</h1>
+                    <p class="color-azul text-pq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto illo soluta distinctio. Porro debitis doloribus, quisquam omnis ipsum ea, optio assumenda, hic quae quibusdam maiores laboriosam vel provident vitae.</p>
+                    <button>Compre Agora</button>
+                </div>
+                <div class="right">
+                    <div class="imagem">
+                        <img src="image/lojablacks.jpeg" alt="dichavador">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top"></button>
+    </header>
+
+    <section class="max-width bg2" id="about">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-2">Novidades</h2>
+                <div class="line">
+                    <div class="text-titulo">Acessórios</div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="box">
+                    <img src="image/case1.jpeg" alt="">
+                    <div class="text">
+                        <h2>Kit X</h2>
+                        <p>Coleção da Marca X</p>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/case2.jpeg" alt="">
+                    <div class="text">
+                        <h2>Kit Y</h2>
+                        <p>Coleção da Marca Y</p>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/case3.jpeg" alt="">
+                    <div class="text">
+                        <h2>Kit Z</h2>
+                        <p>Coleção da Marca Z</p>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-width bg" id="service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <h2 class="text-md color-cinza-2">Novidades</h2>
+                    <div class="line">
+                        <div class="text-titulo">Acessórios</div>
+                    </div>
+                </div>
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        <label class="card" for="item-1" id="song-1">
+                            <img src="image/produto1.jpeg" alt="">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-2" id="song-2">
+                            <img src="image/produto2.jpeg" alt="">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-3" id="song-3">
+                            <img src="image/produto3.jpeg" alt="">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                    </div>
+            </div>
+         </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        //back-to
+
+        var btn = document.querySelector("#back-to-top");
+
+        btn.addEventListener("click", function(){
+            window.scrollTo(0,0);
+        });
+    </script>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
