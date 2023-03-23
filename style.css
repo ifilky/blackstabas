@@ -212,9 +212,15 @@ button:hover {
     bottom: 2px;
     right: 10px;
     padding: 20px 10px;
+    color: #F6F6F6;
     background: var(--cor-terciaria);
     z-index: 99;
 }
+
+#back-to-top:hover {
+    border: 1px solid #F6F6F6;
+}
+
 body::-webkit-scrollbar {
     width: 12px;
 }
@@ -346,6 +352,32 @@ header .right .imagem img {
     object-fit: contain;
     margin-bottom: 60px;
     padding: 80px;
+}
+
+.line-content {
+    display: block;
+    padding: 32px 0;
+    background: var(--cor-terciaria);
+}
+
+.line-content .container {
+    width: 100%;
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: var(--cor-secundaria);
+}
+
+.line-content .container .information {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.line-content .container i {
+
+    font-size: 40px;
 }
 
 /* #### ABOUT #### */
@@ -705,7 +737,7 @@ footer .container p {
     #item-1:checked ~ .cards #song-3,
     #item-2:checked ~ .cards #song-1,
     #item-3:checked ~ .cards #song-2 {
-        transform: translateY(0) scale(0.8);
+        transform: translateX(0) scale(0.8);
         opacity: 0.4;
         z-index: 0;
     }
@@ -713,7 +745,7 @@ footer .container p {
     #item-1:checked ~ .cards #song-2,
     #item-2:checked ~ .cards #song-3,
     #item-3:checked ~ .cards #song-1 {
-        transform: translateY(25%) scale(0.8);
+        transform: translateX(25%) scale(0.8);
         opacity: 0.4;
         z-index: 0;
     }
